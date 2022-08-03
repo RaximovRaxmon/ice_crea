@@ -1,0 +1,52 @@
+/* .parent__card{
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid;
+    position: relative;
+}
+.child__card{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    position: absolute;
+    top: 52%;
+    left: 20%;
+} */
+
+
+
+/* .box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(175, 169, 169);
+    z-index: -1;
+} */
+
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(119, 218, 218);
+    min-width:160px;
+    box-shadow: 10px 10px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
